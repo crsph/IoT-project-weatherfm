@@ -1,0 +1,31 @@
+.grid-container {
+  height: 100%;
+  background-size: cover;
+  padding: 0;
+}
+
+.col-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+}
+
+.overlay-row {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ion-text-style {
+  color: rgba(255, 255, 255, 1.0);
+}
+

@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title style="text-align: center">
+            WeatherFM
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid class="grid-container" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')'}">
+        <ion-col class="col-container">
+
+            <ion-row class="overlay-row">
+                <ion-col class="overlay" style="margin-right: 10px;">
+                    <ion-title class="ion-text-style"><b
+                            style="font-size: 70px">{{weatherDegree}}</b>°F<br>{{weatherCondition}}</ion-title>
+                </ion-col>
+
+                <ion-col class="overlay" style="margin-left: 10px;">
+                    <ion-title class="ion-text-style"><b style="font-size: 60px">{{audioStatus}}</b><br>{{audioName}}
+                    </ion-title>
+                </ion-col>
+            </ion-row>
+        </ion-col>
+    </ion-grid>
+
+</ion-content>
